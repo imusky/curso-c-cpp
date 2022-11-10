@@ -11,7 +11,7 @@ void main(){
         printf("A eh verdadeiro\n");
     }
 
-    //se B for falso
+    //comparando o B
     if(b){
         printf("B eh verdadeiro\n");
     }else{
