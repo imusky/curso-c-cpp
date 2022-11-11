@@ -1,28 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 void main(){
-
-    //Definindo uma variÃ¡vel
+    //para podermos utilizar acentuação e também temos que incluir <locale.h>
+    setlocale(LC_ALL, "Portuguese");
+    //Definindo uma variável
     int a = 5, b;
 
-    //Imprimindo a variÃ¡vel "a" e o "\n" faz pular linha
+    //Imprimindo a variável "a" e o "\n" faz pular linha
     printf("%d\n", a);
 
     //Concatenando
-    printf("O valor da var a eh: %d\n", a);
+    printf("O valor da var a é: %d\n", a);
 
     //Mudando o valor de a
     a = 15;
 
-    printf("O valor da var a e eh: %d\n", a);
+    printf("O valor da var a e é: %d\n", a);
 
-    printf("Escolha um valor para a variavel b ");
+    printf("Escolha um valor para a variável b ");
 
     //Lendo valores
     scanf("%d", &b);
 
-    printf("O valor da var b e eh: %d\n", b);
+    printf("O valor da var b e é: %d\n", b);
 
     system("pause");
 
