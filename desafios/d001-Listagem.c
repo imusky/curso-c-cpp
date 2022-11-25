@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 void main(){
-    printf("<<< EX001 - LISTAGEM >>>\n");
-    printf("\n");
+    printf("<<< EX001 - LISTAGEM >>>\n\n");
     printf("Listagem de Alunos\n");
     printf("Nome \t\tNota\n");
     printf("---------------------\n");
