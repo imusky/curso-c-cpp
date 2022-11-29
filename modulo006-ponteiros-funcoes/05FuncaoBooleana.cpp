@@ -2,13 +2,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-bool retornaBooleano()
-{
-    return true;
-}
+bool retornaBooleano();
 
-int main()
-{
+int main(){
 
     bool variavelBooleana;
 
@@ -17,13 +13,19 @@ int main()
 
     printf("%d ", variavelBooleana);
 
-    //se for verdadiro executa o priemiro bloco
-    if(variavelBooleana){
+    // se for verdadiro executa o priemiro bloco
+    if (variavelBooleana)
+    {
         printf("Eh verdadeiro!");
-    }//senao, executa o segundo bloco
-    else{
+    } // senao, executa o segundo bloco
+    else
+    {
         printf("Eh falso!");
     }
 
     return 0;
+}
+
+bool retornaBooleano(){
+    return true;
 }
